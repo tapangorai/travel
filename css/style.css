@@ -1,3 +1,42 @@
-p{
-    color: red;
+/* header css*/
+.jumbotron{
+    height: 100%;
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position: fixed;
+    min-height: 50vw;
+    border-radius: 0px;
+    text-align: center;
+    color: #ffffff;
+}
+/*logo css*/
+.back-img img{
+    width: 90px;
+    float: left;
+    margin-top: -40px;
+
+
+}
+/*clearing float value*/
+.back-img::after{
+    content: " ";
+    display: block;
+    clear: left;
+}
+.login-btn{
+    width: 100px;
+    padding: 8px 0;
+    outline: none !important;
+    border: 2px solid lightgreen;
+    border-radius: 30px;
+    background: transparent;
+    color:whitesmoke;
+    float: right;
+    margin-top: -40px;
+}
+.back-img h1{
+    padding-top: 50px;
+    padding-bottom: 0px;
+    font-size: 55px;
 }
