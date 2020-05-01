@@ -63,7 +63,7 @@
     border-radius: 30px !important;
     box-shadow: none !important;
 }
-/* features*/
+/* features Section*/
 .features{
     padding: 40px 0;
 }
@@ -123,4 +123,57 @@ h1 {
 .feature-box{
     box-shadow: 0 0 10px 1px rgba(37, 73, 214, 0.18);
     margin-bottom: 30px;
+}
+
+/*Gallery Section*/
+.gallery{
+    padding: 60px 0;
+    background: #efefef;
+}
+.gallery-box img {
+    width: 100%;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.gallery-box img:hover {
+    transform: scale(1.1);
+}
+.gallery-box h4{
+    display: block;
+    font-weight: 600;
+    font-size: 20px;
+    color: #fff;
+    text-shadow: -2px 2px 2px #000;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.gallery-box {
+    position: relative;
+    margin-bottom: 30px;
+}
+/*banner section*/
+.banner{
+    height: 80%;
+    background-position: center;
+    background-size: cover;
+    padding: 14% 0;
+}
+.banner-highlights{
+    padding: 20px 0;
+    background: rgba(0,0,0,0.7);
+    text-align: center;
+    color: #fff;
+}
+.booking-btn{
+    width: 100px;
+    padding: 8px 0;
+    outline: none !important;
+    border: 2px solid lightgreen;
+    border-radius: 30px;
+    background: transparent;
+    color:whitesmoke;
+    float: right;
 }
